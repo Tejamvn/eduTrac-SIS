@@ -1307,7 +1307,7 @@ $app->group('/stu', function() use ($app, $css, $js) {
             etsis_register_style('form');
             etsis_register_script('select');
             etsis_register_script('select2');
-	    etsis_register_script('datepicker');		 
+	  etsis_register_script('datepicker');		 
 
             $app->view->display('student/add-prog', [
                 'title' => get_name($id),
